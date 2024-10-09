@@ -8,9 +8,12 @@ const students = [
 students.forEach((student) => console.log(student.name, ", ", student.grade));
 // 2
 const topStudents = students.filter((student) => student.grade > 80);
+console.log(topStudents);
 const youngStudents = students.filter((student) => student.age < 21);
+console.log(youngStudents);
 // 3
-const topLog = topStudents.forEach((topStudent) =>
+const topStudents2 = students.filter((student) => student.grade > 80);
+const topLog = topStudents2.forEach((topStudent) =>
   console.log(topStudent.name)
 );
 const youngLog = youngStudents.forEach((youngStudent) =>

@@ -33,7 +33,6 @@ const highrateProducts = products.filter((product) => product.rating >= 4.5);
 console.log("High Rated Products:", highrateProducts);
 //3
 const highrateProducts2 = products.filter((product) => product.rating >= 4.5);
-console.log("High Rated Products:", highrateProducts);
 const loghighProducts = highrateProducts2.forEach((product) =>
   console.log(product.name)
 );
